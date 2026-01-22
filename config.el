@@ -77,5 +77,8 @@
 
 
 ;; HASKELL
-(after! lsp-haskell
-  (setq lsp-haskell-formatting-provider "ormolu"))
+(setq haskell-stylish-on-save t)
+
+
+;; PYTHON
+(setq python-indent-offset 2)
