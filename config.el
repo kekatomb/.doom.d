@@ -82,3 +82,7 @@
 
 ;; PYTHON
 (setq python-indent-offset 2)
+
+
+;; LATEX
+(setq +latex-viewers '(pdf-tools))
